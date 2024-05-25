@@ -25,8 +25,8 @@ xkb_symbols "extreme" {
     key <AD11> { [        aring,           Aring             ] };
 
     key <AE12> { [    backslash,           grave             ] };
-    key <AD12> { [     quotedbl,        asterisk             ] };
-    key <BKSL> { [   apostrophe, dead_circumflex             ] };
+    key <AD12> { [     quotedbl,     asciicircum             ] };
+    key <BKSL> { [   apostrophe,        asterisk             ] };
     key <CAPS> { [       Escape                              ] };
 
     key <AB08> { [        comma,       semicolon             ] };
