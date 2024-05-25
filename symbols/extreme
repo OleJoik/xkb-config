@@ -8,7 +8,7 @@ xkb_symbols "extreme" {
     name[Group1]="Norwegian (Extreme)";
 
     key <TLDE> { [          bar,      asciitilde             ] };
-    key <AE01> { [       exclam,               1             ] };
+    key <AE01> { [       exclam,               1,       less ] };
     key <AE02> { [  bracketleft,               2,         at ] };
     key <AE03> { [    parenleft,               3, numbersign ] };
     key <AE04> { [       dollar,               4,     dollar ] };
@@ -17,7 +17,7 @@ xkb_symbols "extreme" {
     key <AE07> { [        slash,               7             ] };
     key <AE08> { [   parenright,               8             ] };
     key <AE09> { [ bracketright,               9             ] };
-    key <AE10> { [        equal,               0             ] };
+    key <AE10> { [        equal,               0,    greater ] };
     key <AE11> { [         plus,        question             ] };
 
     key <AC10> { [       oslash,          Oslash             ] };
@@ -38,3 +38,4 @@ xkb_symbols "extreme" {
     include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
+
