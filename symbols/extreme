@@ -1,0 +1,40 @@
+partial alphanumeric_keys
+xkb_symbols "extreme" {
+    // strongly inspired by /usr/share/X11/xkb/symbols/no
+    // and https://github.com/ThePrimeagen/keyboards/blob/master/ubuntu/real-prog-dvorak
+
+    include "latin(type2)"
+
+    name[Group1]="Norwegian (Extreme)";
+
+    key <TLDE> { [          bar,      asciitilde             ] };
+    key <AE01> { [       exclam,               1             ] };
+    key <AE02> { [  bracketleft,               2,         at ] };
+    key <AE03> { [    parenleft,               3, numbersign ] };
+    key <AE04> { [       dollar,               4,     dollar ] };
+    key <AE05> { [    braceleft,               5,    percent ] };
+    key <AE06> { [   braceright,               6,  ampersand ] };
+    key <AE07> { [        slash,               7             ] };
+    key <AE08> { [   parenright,               8             ] };
+    key <AE09> { [ bracketright,               9             ] };
+    key <AE10> { [        equal,               0             ] };
+    key <AE11> { [         plus,        question             ] };
+
+    key <AC10> { [       oslash,          Oslash             ] };
+    key <AC11> { [           ae,              AE             ] };
+    key <AD11> { [        aring,           Aring             ] };
+
+    key <AE12> { [    backslash,           grave             ] };
+    key <AD12> { [     quotedbl,        asterisk             ] };
+    key <BKSL> { [   apostrophe, dead_circumflex             ] };
+    key <CAPS> { [       Escape                              ] };
+
+    key <AB08> { [        comma,       semicolon             ] };
+    key <AB09> { [       period,           colon             ] };
+    key <AB10> { [        minus,      underscore             ] };
+
+    include "nbsp(level3n)"
+    include "keypad(ossmath)"
+    include "kpdl(comma)"
+    include "level3(ralt_switch)"
+};

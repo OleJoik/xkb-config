@@ -1,0 +1,11 @@
+xkb_keymap {
+	xkb_keycodes  { include "evdev+aliases(qwerty)"	};
+	xkb_types     { include "complete"	};
+	xkb_compat    { include "complete"	};
+	xkb_symbols   { include "pc+extreme+inet(evdev)"	};
+	xkb_geometry  { include "pc(pc105)"	};
+};
+
+// To set this as your configuration, do
+// from https://wiki.archlinux.org/title/X_keyboard_extension#Local_XKB_folder
+// xkbcomp -I$HOME/.config/xkb $HOME/.config/xkb/.custom.xkb $DISPLAY
